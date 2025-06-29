@@ -55,6 +55,32 @@
       display: block;
       margin: auto;
     }
+    .pdf-container {
+      width: 100%;
+      max-width: 500px;
+      margin: 2rem auto;
+      text-align: center;
+    }
+    .pdf-container img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    table.score-table {
+      width: 100%;
+      max-width: 800px;
+      margin: 1rem auto;
+      border-collapse: collapse;
+    }
+    table.score-table th,
+    table.score-table td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    table.score-table th {
+      background-color: #eee;
+    }
     footer {
       background-color: #222;
       color: white;
@@ -93,7 +119,33 @@
       <h2>About Me</h2>
       <p>I’m a rising senior at the University of Maryland College Park with a 3.8 GPA and industry Software Engineering experience. I entered college with 54 AP credits, saving my family $86,778 — a ~62x return on the $1400 we paid for AP exams.</p>
       <p>After discovering that many Maryland high schools lack strong AP support, I started this service to help motivated students take and succeed on AP exams — unlocking huge educational and financial opportunities.</p>
+      <p><strong>Test Scores:</strong></p>
+      <table class="score-table">
+        <thead>
+          <tr>
+            <th>Exam</th>
+            <th>Score</th>
+            <th>Percentile</th>
+            <th>UMD | College Equivalent</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>AP Chemistry</td><td>5/5</td><td>Top 11%</td><td>CHEM131/132 | Chemistry 1 + Lab</td></tr>
+          <tr><td>AP Biology</td><td>5/5</td><td>Top 7.4%</td><td>BSCI170/171 | Biology 1 + Lab</td></tr>
+          <tr><td>AP Calculus BC</td><td>5/5</td><td>Top 41%</td><td>MATH140 + MATH141 | Calculus 1 + Calculus 2</td></tr>
+          <tr><td>AP Computer Science A</td><td>5/5</td><td>Top 26%</td><td>CMSC131 | Computer Science 1</td></tr>
+          <tr><td>AP Physics C: Mechanics</td><td>4/5</td><td>Top 52%</td><td>PHYS 161 + PHYS 261 | Physics 1 + Physics 2 Lab</td></tr>
+          <tr><td>AP Statistics</td><td>5/5</td><td>Top 15%</td><td>STAT100 | Statistics 1</td></tr>
+          <tr><td>ACT (Overall)</td><td>35/36</td><td>99th Percentile</td><td>N/A</td></tr>
+          <tr><td>ACT (Math & Science)</td><td>36/36</td><td>99th Percentile</td><td>N/A</td></tr>
+        </tbody>
+      </table>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/Jason--Zhao" target="_blank">Jason Zhao</a></p>
+    </section>
+
+    <section class="scores-container">
+      <h2>Score Report</h2>
+      <img src="score_report.png" alt="Score Report">
     </section>
 
     <section id="contact">
